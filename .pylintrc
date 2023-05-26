@@ -2,7 +2,7 @@
 ignore=
     somefile.py,
 disable=
-    ifixme,
+    fixme,
 	line-too-long,
     missing-module-docstring,
     missing-function-docstring
