@@ -1,0 +1,8 @@
+[pylint]
+ignore=
+    somefile.py,
+disable=
+    ifixme,
+	line-too-long,
+    missing-module-docstring,
+    missing-function-docstring
