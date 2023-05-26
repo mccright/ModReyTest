@@ -1,6 +1,6 @@
 # "Modified Rey Auditory Verbal Learning Test" or ModRey  
 
-On 26-05-2023 I read a couple articles by the [AP](https://apnews.com/article/multivitamin-memory-aging-9dd73199796b280c42e141d59da11504) and [Washington Post](https://www.washingtonpost.com/wellness/2023/05/24/multivitamin-benefits-aging-memory-loss/) positing that consuming a multivitamin supplementation improves memory for those 60 and older.  
+On 26-05-2023 I read a couple articles by the [AP](https://apnews.com/article/multivitamin-memory-aging-9dd73199796b280c42e141d59da11504) and [Washington Post](https://www.washingtonpost.com/wellness/2023/05/24/multivitamin-benefits-aging-memory-loss/) positing that consuming a multivitamin supplement daily improves memory for those 60 and older.  
 They described scientific research published under "Older Adults: A Randomized Clinical Trial." Lok-Kin Yeung, et.al. The American Journal of Clinical Nutrition. Available online 24 May 2023:  
 https://ajcn.nutrition.org/article/S0002-9165(23)48904-6/fulltext (*behind paywall*)  
 https://www.sciencedirect.com/science/article/abs/pii/S0002916523489046?dgcid=author (*behind paywall*)  
