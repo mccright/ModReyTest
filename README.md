@@ -5,7 +5,7 @@ They described scientific research published under "Older Adults: A Randomized C
 https://ajcn.nutrition.org/article/S0002-9165(23)48904-6/fulltext (*behind paywall*)  
 https://www.sciencedirect.com/science/article/abs/pii/S0002916523489046?dgcid=author (*behind paywall*)  
 
-The articles about this research described short delay word list recall testing used to measure memory health.  That test was called the ["Modified Rey Auditory Verbal Learning Test" or ModRey](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5829025/).  
+The articles about this research described [short delay word list recall testing](https://alz-journals.onlinelibrary.wiley.com/doi/full/10.1002/alz.12767) used to measure memory health.  That test was called the ["Modified Rey Auditory Verbal Learning Test" or ModRey](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5829025/), a version of the "[Rey Auditory Verbal Learning Test](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3280771/)".  
 
 The script in this repo is my initial attempt to *emulate* this test.  
 1. It selects 20 words from a google resource "20k.txt" at https://github.com/first20hours/google-10000-english.  ToDo: *I need a list better taylored to a ModRey test -- where using semantically and phonemically unrelated words improves the quality of test results*.  
