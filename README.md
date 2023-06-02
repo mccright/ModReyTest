@@ -13,6 +13,6 @@ The script in this repo is my initial attempt to *emulate* this test.
 3. After displaying all 20, it prompts the user to input the words they remenber.  
 4. Finally, it outputs the number of matches and which input strings matched members of the list presented.  
 
-After reading about the research results (*where [participants correctly recalled between 7.10 and 7.81 words]https://apnews.com/article/multivitamin-memory-aging-9dd73199796b280c42e141d59da11504)*) and taking this test -- it might be interesting to see how my list-retention capabilities change over time.  
+After reading about the research results (*where [participants correctly recalled between 7.10 and 7.81 words](https://apnews.com/article/multivitamin-memory-aging-9dd73199796b280c42e141d59da11504)*) and taking this test -- it might be interesting to see how my list-retention capabilities change over time.  
 
 
