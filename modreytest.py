@@ -6,6 +6,9 @@ import os
 # https://github.com/mccright/ModReyTest/blob/main/README.md
 
 
+# Implementing a strict function signature may help to 
+# ensure code written by any users will look recognizable 
+# to future developers/reviewers
 def get_words(file_name: str, number_of_words: int, encoding="utf-8") -> list:
     # Read the contents of the file then load them into a list
     with open(file_name, 'r', encoding="utf-8") as file:
