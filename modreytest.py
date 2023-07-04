@@ -6,8 +6,8 @@ import os
 # https://github.com/mccright/ModReyTest/blob/main/README.md
 
 
-# Implementing a strict function signature may help to 
-# ensure code written by any users will look recognizable 
+# Implementing a strict function signature may help to
+# ensure code written by any users will look recognizable
 # to future developers/reviewers
 def get_words(file_name: str, number_of_words: int, encoding="utf-8") -> list:
     # Read the contents of the file then load them into a list
@@ -34,15 +34,15 @@ def print_words(present_these_words: list, seconds_on_screen: int, encoding="utf
 # semantically and phonemically unrelated words improves the
 # quality of test results
 FILENAME = '20k.txt'
-NUMBEROFWORDS = 20
+NUMBEROFWORDS = 5
 SECONDSONSCREEN = 3
 
 # Clear the screen to start
 os.system('cls' if os.name == 'nt' else 'clear')
 
-presentthesewords = get_words(FILENAME, NUMBEROFWORDS)
+presentthesewords = get_words(FILENAME, NUMBEROFWORDS, encoding="utf-8")
 
-print_words(presentthesewords, SECONDSONSCREEN)
+print_words(presentthesewords, SECONDSONSCREEN, encoding="utf-8")
 
 # Ask the user to input the words they remember
 user_input = input("Enter as many of the words you just saw as you can, separated by spaces: ")
