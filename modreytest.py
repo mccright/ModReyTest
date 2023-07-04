@@ -6,7 +6,7 @@ import os
 # https://github.com/mccright/ModReyTest/blob/main/README.md
 
 
-def get_words(file_name: str, number_of_words: int) -> list:
+def get_words(file_name: str, number_of_words: int, encoding="utf-8") -> list:
     # Read the contents of the file then load them into a list
     with open(file_name, 'r', encoding="utf-8") as file:
         words = [line.strip() for line in file]
@@ -16,7 +16,7 @@ def get_words(file_name: str, number_of_words: int) -> list:
     return selected_words
 
 
-def print_words(present_these_words: list, seconds_on_screen: int):
+def print_words(present_these_words: list, seconds_on_screen: int, encoding="utf-8"):
     # Print one of the selected words every 'seconds_on_screen' seconds
     for word in present_these_words:
         print(f"\n\n\n\t\t{word}\n\n\n")
