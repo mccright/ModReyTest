@@ -11,7 +11,7 @@ import os
 # to future developers/reviewers
 def get_words(file_name: str, number_of_words: int, encoding="utf-8") -> list:
     # Read the contents of the file then load them into a list
-    with open(file_name, 'r', encoding="utf-8") as file:
+    with open(file_name, 'r', encoding=encoding) as file:
         words = [line.strip() for line in file]
 
     # 'Randomly' select twenty words from the list
@@ -22,6 +22,9 @@ def get_words(file_name: str, number_of_words: int, encoding="utf-8") -> list:
 def print_words(present_these_words: list, seconds_on_screen: int, encoding="utf-8"):
     # Print one of the selected words every 'seconds_on_screen' seconds
     for word in present_these_words:
+        # Attempting to enforce encoding like below presents output
+        # that is sure to be confusing for many users (e.g., b'word')
+        # encoded_word = word.encode(encoding=encoding,errors="replace")
         print(f"\n\n\n\t\t{word}\n\n\n")
         time.sleep(seconds_on_screen)
         # Clear the screen before the next word
